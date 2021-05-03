@@ -24,7 +24,7 @@ def init():
 	#Création de la fenêtre d'affichage du jeu
 	global taille_fenetre
 	global screen_surface
-	taille_fenetre = (1366, 768)
+	taille_fenetre = (1600, 900)
 	screen_surface = pygame.display.set_mode(taille_fenetre)#, pygame.FULLSCREEN)
 	pygame.display.set_caption("Magic The Gathering")
 	pygame.key.set_repeat(80,80)
