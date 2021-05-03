@@ -18,7 +18,9 @@ Les caractéristiques et les images des cartes sont téléchargées par *parsing
 
 ### Partie graphique (/graphic_engine)
 
-La partie graphique a été conçue pour une résolution 1600×900. Elle comprend un écran d'accueil ainsi qu'un outil de création de deck graphique utilisant les cartes préalablement téléchargées et répertoriées dans */cards/cards.db*. La recherche des cartes se fait grâce 
+La partie graphique a été conçue pour une résolution 1600×900. Elle comprend un écran d'accueil ainsi qu'un outil de création de deck graphique utilisant les cartes préalablement téléchargées et répertoriées dans la base de données */cards/cards.db*. La recherche des cartes se fait grâce à des requêtes SQL, et permet pour l'instant de filtrer selon la couleur.
+
+![Deck editor screenshot](https://github.com/pierreayanides/MTG_2019/blob/main/documents/examples/deck_editor.png)
 
 ## Requirements
 
@@ -45,14 +47,14 @@ python3 /graphic_engine/main.py
 
 ## License
 
-Les images utilisées ne nous appartienent pas.
+Les images utilisées ne nous appartiennent pas.
 
 License GPLv3.
 
 ## Authors
 
-Pierre Ayanides
+Pierre Ayanides (Téléchargement, partie graphique)
 
-Antoine Bedin
+Antoine Bedin (Moteur de jeu)
 
-Gabriel Farago
+Gabriel Farago (Partie graphique)
