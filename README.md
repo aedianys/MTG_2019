@@ -53,7 +53,7 @@ License GPLv3.
 
 ## Authors
 
-Pierre Ayanides (Téléchargement, partie graphique)
+Lunia Ayanides (Téléchargement, partie graphique)
 
 Antoine Bedin (Moteur de jeu)
 
